@@ -29,7 +29,7 @@ body {
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 50px;
-  background: rgb(214, 214, 214);
+  background: #2D2D2D;
 }
 
 .slug {
@@ -1199,4 +1199,4 @@ h1 span {
   .form {
     width: 95vw;
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style-dark.css.map */
