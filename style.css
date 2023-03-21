@@ -1,5 +1,6 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
-@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700);
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700");
 * {
   box-sizing: border-box;
   outline: none;
@@ -8,24 +9,24 @@
 body {
   display: block;
 }
+
 @media (max-width: 48rem) {
   body {
     width: 90vw;
     justify-content: center;
   }
 }
-
 #header {
   padding: 5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
 @media (max-width: 48rem) {
   #header {
     padding: 0;
   }
 }
-
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 50px;
@@ -33,20 +34,26 @@ html {
 }
 
 .slug {
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2vh;
 }
+
 .slug h1 {
   text-decoration: none;
   color: #000000;
 }
+
 @media (max-width: 48rem) {
   .slug {
     font-size: 1.5vh;
     margin-top: 3rem;
   }
 }
-
+/* Propriétés */
+/* Menu Nav */
+/* Hero page */
+/* Pacman */
+/*début menu hamburger */
 #menu:after {
   content: "";
   background-image: url("img/paper_1.png");
@@ -72,7 +79,7 @@ html {
   visibility: hidden;
   width: 100%;
   z-index: 1100;
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 @keyframes grain {
   0%, 100% {
@@ -402,26 +409,26 @@ main {
 
 .hero h1 {
   font-size: 10vh;
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
 @media (max-width: 48rem) {
   .hero h1 {
     font-size: 3rem;
-    font-family: "Open-sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
   }
 }
 
 .hero h2 {
   font-size: 5vh;
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
 @media (max-width: 48rem) {
   .hero h2 {
     font-size: 30px;
-    font-family: "Open-sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 500;
     width: 90vw;
   }
@@ -457,7 +464,7 @@ span {
 
 .skill h2 {
   font-size: 4vh;
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   flex-grow: 1;
   flex-basis: 30%;
@@ -465,7 +472,7 @@ span {
 
 .skill p {
   font-size: 18px;
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   flex-grow: 1;
   flex-basis: 50%;
@@ -515,7 +522,7 @@ span {
 
 .skill_2 h2 {
   font-size: 4vh;
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   flex-grow: 1;
   flex-basis: auto;
@@ -523,7 +530,7 @@ span {
 
 .skill_2 p {
   font-size: 18;
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   flex-basis: auto;
 }
@@ -575,7 +582,7 @@ span {
   }
 }
 .appercu h2 {
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 @media (max-width: 48rem) {
   .appercu h2 {
@@ -594,12 +601,12 @@ span {
   max-width: 1920px;
 }
 .projects h1 {
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2.5rem;
 }
 .projects p {
   font-size: 2vh;
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   flex-basis: auto;
   max-width: 1920px;
@@ -765,7 +772,7 @@ span {
   max-width: 70rem;
   flex: 1;
   gap: 1rem;
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 @media (max-width: 48rem) {
   .propos {
@@ -787,7 +794,7 @@ span {
   flex: 1;
   gap: 1rem;
   align-content: baseline;
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 @media (max-width: 48rem) {
   .projects_items {
@@ -818,27 +825,27 @@ span {
 
 .hero2 h1 {
   font-size: 10vh;
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
 @media (max-width: 48rem) {
   .hero2 h1 {
     margin-top: 20rem;
     font-size: 4rem;
-    font-family: "Open-sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
   }
 }
 
 .hero2 h2 {
   font-size: 5vh;
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
 @media (max-width: 48rem) {
   .hero2 h2 {
     font-size: 30px;
-    font-family: "Open-sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 500;
     width: 70vw;
   }
@@ -847,7 +854,7 @@ span {
 .social {
   display: flex;
   justify-content: center;
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
   margin: 4rem 1rem 4rem 1rem;
@@ -884,7 +891,7 @@ a:hover {
 }
 
 .copy {
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   text-align: center;
 }
@@ -904,7 +911,7 @@ a:hover {
   width: 70rem;
   flex: 1;
   gap: 1rem;
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 @media (max-width: 48rem) {
   .propos2 {
@@ -1050,7 +1057,7 @@ a:hover {
   margin-bottom: 1rem;
 }
 .video-item h2 {
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 @media (max-width: 48rem) {
   .video-item {
@@ -1071,7 +1078,7 @@ iframe {
 
 .parcours h1 {
   font-size: 3rem;
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   margin-left: 4.5rem;
 }
@@ -1080,7 +1087,7 @@ iframe {
     font-size: 20px;
     margin-top: 10rem;
     font-size: 4rem;
-    font-family: "Open-sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
   }
 }
@@ -1144,20 +1151,20 @@ h1 span {
 
 .timeline-content h3 {
   margin-top: 5px;
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 5px;
   font-size: 25px;
   font-weight: 500;
 }
 
 .timeline-content span {
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 15px;
   color: #a4a4a4;
 }
 
 .timeline-content p {
-  font-family: "Open-sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 1.5em;
   word-spacing: 1px;
