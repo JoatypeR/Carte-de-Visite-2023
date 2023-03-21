@@ -18,14 +18,14 @@ form.addEventListener('submit', function(event) {
     message
   };
   
-  fetch('https://example.com/contact', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(data)
-  })
-  .then(function(response) {
+  fetch('http://localhost:8888/send-form.php', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(data)
+})
+.then(function(response) {
     if (!response.ok) {
       throw new Error('Une erreur est survenue lors de l\'envoi du formulaire.');
     }
