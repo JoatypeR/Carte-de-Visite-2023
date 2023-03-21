@@ -1180,4 +1180,32 @@ h1 span {
     float: none;
     direction: ltr;
   }
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label, input, textarea {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  border: 2px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
