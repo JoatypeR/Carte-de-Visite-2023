@@ -32,6 +32,11 @@ html {
   scroll-padding-top: 50px;
   background: rgb(214, 214, 214);
 }
+@media (max-width: 48rem) {
+  html {
+    padding: 0.5rem;
+  }
+}
 
 .slug {
   font-family: "Open Sans", sans-serif;
@@ -452,6 +457,11 @@ span {
   max-width: 1920px;
   margin: 0 auto;
 }
+@media (max-width: 48rem) {
+  .skill {
+    width: 90vw;
+  }
+}
 
 .skill img {
   max-width: 5rem;
@@ -518,6 +528,11 @@ span {
   max-width: 1920px;
   margin: 0 auto;
   margin-top: 1rem;
+}
+@media (max-width: 48rem) {
+  .skill_2 {
+    width: 90vw;
+  }
 }
 
 .skill_2 h2 {
@@ -599,6 +614,11 @@ span {
   margin: 0 auto;
   padding: 0;
   max-width: 1920px;
+}
+@media (max-width: 48rem) {
+  .projects {
+    width: 90vw;
+  }
 }
 .projects h1 {
   font-family: "Open Sans", sans-serif;
@@ -778,6 +798,7 @@ span {
   .propos {
     padding: 1em;
     font-size: 16px;
+    width: 90vw;
   }
 }
 
@@ -817,7 +838,7 @@ span {
 }
 @media (max-width: 48rem) {
   .hero2 {
-    width: 70vw;
+    max-width: 90vw;
     height: 40vh;
     margin: 0;
   }
@@ -831,7 +852,7 @@ span {
 @media (max-width: 48rem) {
   .hero2 h1 {
     margin-top: 20rem;
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
   }
@@ -841,10 +862,11 @@ span {
   font-size: 5vh;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
+  width: 100vw;
 }
 @media (max-width: 48rem) {
   .hero2 h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
     width: 70vw;
@@ -1048,6 +1070,11 @@ a:hover {
   margin-bottom: 2rem;
   padding: 15px;
 }
+@media (max-width: 48rem) {
+  .video-container {
+    width: 90vw;
+  }
+}
 
 .video-item {
   width: 50%;
@@ -1085,10 +1112,13 @@ iframe {
 @media (max-width: 48rem) {
   .parcours h1 {
     font-size: 20px;
-    margin-top: 10rem;
-    font-size: 4rem;
+    margin-top: 5rem;
+    font-size: 3rem;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
+    margin-left: 0;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 }
 
@@ -1204,6 +1234,7 @@ h1 span {
 }
 @media (max-width: 48rem) {
   .form {
-    width: 95vw;
+    width: 90vw;
+    max-width: 90%;
   }
 }/*# sourceMappingURL=style.css.map */

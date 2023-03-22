@@ -34,6 +34,9 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 50px;
   background: rgb(214, 214, 214);
+  @media(max-width:48rem){
+    padding: .5rem;
+  }
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
@@ -457,6 +460,9 @@ background-clip: text;
     min-height: 30vh;
     max-width: 1920px;
     margin: 0 auto;
+    @media(max-width:48rem){
+      width: 90vw;
+    }
   }
   .skill img{
     max-width: 5rem;
@@ -516,6 +522,9 @@ background-clip: text;
     max-width: 1920px;
     margin: 0 auto;
     margin-top: 1rem ;
+    @media(max-width:48rem){
+      width: 90vw;
+    }
   }
   .skill_2 h2 {
     font-size: 4vh;
@@ -569,6 +578,7 @@ background-clip: text;
   font-size: 5vh;
   @media (max-width:48rem){
     margin-left: 0;
+
   }
   h2{
     font-family: $font-family;
@@ -586,6 +596,9 @@ background-clip: text;
     margin: 0 auto;
     padding: 0;
     max-width: 1920px;
+    @media(max-width:48rem){
+      width: 90vw;
+    }
     h1{
       font-family: $font-family;
     font-size: $menu-font-size;
@@ -757,6 +770,7 @@ box-shadow:
     @media(max-width:48rem){
       padding: 1em;
       font-size: 16px;
+      width: 90vw;
     }
 }
 
@@ -792,7 +806,7 @@ box-shadow:
   max-height: 100vh;
   margin-left:5vw;
   @media (max-width:48rem){
-    width: 70vw;
+    max-width: 90vw;
     height:40vh;
     margin: 0
   }
@@ -803,7 +817,7 @@ box-shadow:
   font-weight: 700;
   @media (max-width:48rem){
     margin-top: 20rem;
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: $font-family;
   font-weight: 700;
   }
@@ -812,8 +826,9 @@ box-shadow:
   font-size: 5vh;
   font-family: $font-family;
   font-weight: 700;
+  width:100vw;
   @media (max-width:48rem){
-    font-size: 30px;
+    font-size: 25px;
     font-family: $font-family;
   font-weight: 500;
   width:70vw;
@@ -996,6 +1011,9 @@ box-shadow:
   margin: 0 auto;
   margin-bottom: 2rem;
   padding: 15px;
+  @media(max-width:48rem){
+    width: 90vw;
+  }
 
 }
 
@@ -1028,10 +1046,12 @@ iframe{
   margin-left: 4.5rem;
   @media (max-width:48rem){
     font-size: 20px;
-    margin-top: 10rem;
-    font-size: 4rem;
+    margin-top: 5rem;
+    font-size: 3rem;
     font-family: $font-family;
   font-weight: 700;
+  margin-left: 0;
+  width:fit-content
   }
 }
 h1 span {
@@ -1155,7 +1175,9 @@ h1 span {
   padding-left: auto;
   padding-right: auto;
   @media(max-width:48rem){
-    width: 95vw;
+    width: 90vw;
+    max-width: 90%;
   }
 }
+
 //fin du formulaire
