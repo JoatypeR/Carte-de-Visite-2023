@@ -460,6 +460,7 @@ background-clip: text;
     min-height: 30vh;
     max-width: 1920px;
     margin: 0 auto;
+    max-width: 70rem;
     @media(max-width:48rem){
       width: 90vw;
     }
@@ -522,6 +523,7 @@ background-clip: text;
     max-width: 1920px;
     margin: 0 auto;
     margin-top: 1rem ;
+    max-width: 70rem;
     @media(max-width:48rem){
       width: 90vw;
     }
@@ -847,16 +849,10 @@ box-shadow:
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     margin: 2rem 1rem;
-    gap: 1rem;
+    gap: 2rem;
+    padding: 1rem;
   }
 }
-  a{
-    text-decoration: none;
-    color: black;
-    &:hover {
-      opacity: 1;
-    }
-    }
   img{
     width: 2rem;
   }
@@ -1018,11 +1014,9 @@ box-shadow:
 }
 
 .video-item {
-  width:50%;
   height: auto;
-  flex-basis: calc(50% - 10px);
-  gap:1rem;
   margin-bottom: 1rem;
+  width: 100%;
   h2{
     font-family: $font-family;
   }
@@ -1032,7 +1026,8 @@ box-shadow:
   }
 }
 iframe{
-  max-width: 500px;
+  max-width: 1000px;
+
   @media (max-width:48rem){
     width: fit-content;
   }
@@ -1181,3 +1176,14 @@ h1 span {
 }
 
 //fin du formulaire
+.mock {
+  width: 100%;
+}
+.mock img {
+  width: 20vw;
+  height: auto;
+  @media(max-width:48rem)
+  {
+    width: 70vw;
+  }
+}

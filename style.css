@@ -456,6 +456,7 @@ span {
   min-height: 30vh;
   max-width: 1920px;
   margin: 0 auto;
+  max-width: 70rem;
 }
 @media (max-width: 48rem) {
   .skill {
@@ -528,6 +529,7 @@ span {
   max-width: 1920px;
   margin: 0 auto;
   margin-top: 1rem;
+  max-width: 70rem;
 }
 @media (max-width: 48rem) {
   .skill_2 {
@@ -888,16 +890,9 @@ span {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     margin: 2rem 1rem;
-    gap: 1rem;
+    gap: 2rem;
+    padding: 1rem;
   }
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-a:hover {
-  opacity: 1;
 }
 
 img {
@@ -1077,11 +1072,9 @@ a:hover {
 }
 
 .video-item {
-  width: 50%;
   height: auto;
-  flex-basis: calc(50% - 10px);
-  gap: 1rem;
   margin-bottom: 1rem;
+  width: 100%;
 }
 .video-item h2 {
   font-family: "Open Sans", sans-serif;
@@ -1094,7 +1087,7 @@ a:hover {
 }
 
 iframe {
-  max-width: 500px;
+  max-width: 1000px;
 }
 @media (max-width: 48rem) {
   iframe {
@@ -1236,5 +1229,19 @@ h1 span {
   .form {
     width: 90vw;
     max-width: 90%;
+  }
+}
+
+.mock {
+  width: 100%;
+}
+
+.mock img {
+  width: 20vw;
+  height: auto;
+}
+@media (max-width: 48rem) {
+  .mock img {
+    width: 70vw;
   }
 }/*# sourceMappingURL=style.css.map */
