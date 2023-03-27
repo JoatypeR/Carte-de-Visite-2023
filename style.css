@@ -842,8 +842,10 @@ span {
 @media (max-width: 48rem) {
   .hero2 {
     max-width: 90vw;
+    flex-wrap: wrap;
     height: 40vh;
     margin: 0;
+    padding: 0;
   }
 }
 
