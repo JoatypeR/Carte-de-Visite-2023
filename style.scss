@@ -810,7 +810,8 @@ box-shadow:
     margin-left:auto;
   @media (max-width:48rem){
     max-width: 90vw;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     height:40vh;
     margin: 0;
     padding: 0;
@@ -1024,7 +1025,8 @@ box-shadow:
     font-family: $font-family;
   }
   @media (max-width:48rem){
-    width: 40rem;
+    font-size: .7rem;
+    width: fit-content;
     height: auto;
   }
 }

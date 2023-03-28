@@ -842,7 +842,8 @@ span {
 @media (max-width: 48rem) {
   .hero2 {
     max-width: 90vw;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     height: 40vh;
     margin: 0;
     padding: 0;
@@ -1084,7 +1085,9 @@ a:hover {
 }
 @media (max-width: 48rem) {
   .video-item {
-    width: 40rem;
+    font-size: 0.7rem;
+    width: -moz-fit-content;
+    width: fit-content;
     height: auto;
   }
 }
