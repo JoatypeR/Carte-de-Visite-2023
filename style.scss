@@ -459,10 +459,7 @@ background-clip: text;
     justify-content: center;
     align-content:top;
     gap: 1rem;
-    min-height: 30vh;
-    max-width: 1920px;
     margin: 0 auto;
-    max-width: 70rem;
     @media(max-width:48rem){
       width: 90vw;
     }
@@ -474,19 +471,18 @@ background-clip: text;
     }
   }
   .skill h2 {
-    font-size: 4vh;
+    font-size: 2rem;
     font-family: $font-family;
     font-weight: 700;
     flex-grow: 1;
     flex-basis: 30%;
   }
   .skill p {
-    font-size: 18px;
+    font-size: 1rem;
     font-family: $font-family;
     font-weight: 400;
     flex-grow: 1;
     flex-basis: 50%;
-    min-height: 25vh;
     @media(max-width:48rem){
       font-size: 16px;
     }
