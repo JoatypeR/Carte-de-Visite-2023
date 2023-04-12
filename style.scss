@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@font-face{
+  font-family: 'PoliceVariable';
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+  font-weight: 100 900; /* Définir les plages de poids de la police */
+  font-stretch:20% 200%; /* Définir les plages d'étirement de la police */
+  font-variation-settings: 'wght' 200, 'wdth' 100%; /* Définir les valeurs de variation de la police */
+}
 
 * {
   -webkit-box-sizing: border-box;
@@ -424,22 +431,22 @@ main{
 }
 .hero h1{
     font-size: 5rem;
-    font-family: $font-family;
+    font-family: 'PoliceVariable', sans-serif;
     font-weight: 700;
     @media (max-width:48rem){
     font-size: 3rem;
-    font-family: $font-family;
+    font-family: 'PoliceVariable', sans-serif;
     font-weight: 700;
     }
 }
 .hero h2{
     font-size: 3rem;
-    font-family: $font-family;
+    font-family: 'PoliceVariable', sans-serif;
     font-weight: 700;
     @media (max-width:48rem){
     font-size: 30px;
-    font-family: $font-family;
-    font-weight: 500;
+    font-family: 'PoliceVariable', sans-serif;
+    font-weight: 700;
     width:90vw;
     }
 }
@@ -472,14 +479,15 @@ background-clip: text;
   }
   .skill h2 {
     font-size: 2rem;
-    font-family: $font-family;
+    font-family: 'PoliceVariable', sans-serif;
     font-weight: 700;
     flex-grow: 1;
     flex-basis: 30%;
+    
   }
   .skill p {
     font-size: 1rem;
-    font-family: $font-family;
+    font-family: 'PoliceVariable', sans-serif;
     font-weight: 400;
     flex-grow: 1;
     flex-basis: 50%;
@@ -518,24 +526,22 @@ background-clip: text;
     min-height: 5vh;
     gap: 1rem;
     margin-top: 1rem;
-    max-width: 1920px;
     margin: 0 auto;
     margin-top: 1rem ;
-    max-width: 70rem;
     @media(max-width:48rem){
       width: 90vw;
     }
   }
   .skill_2 h2 {
-    font-size: 4vh;
-    font-family: $font-family;
-    font-weight: 700;
+    font-family: 'PoliceVariable', sans-serif;
+    @media(max-width:48rem){
     flex-grow: 1;
     flex-basis: auto;
   }
+}
   .skill_2 p {
-    font-size: 18;
-    font-family: $font-family;
+    font-size: 1rem;
+    font-family: 'PoliceVariable', sans-serif;
     font-weight: 400;
     flex-basis: auto;
     @media(max-width:48rem){
@@ -554,7 +560,7 @@ background-clip: text;
     background: rgb(214, 214, 214);
     box-shadow: -6px 6px 12px rgba(171, 171, 171, 0.2), 6px -6px 12px rgba(171, 171, 171, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.9), 6px 6px 15px rgba(171, 171, 171, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(171, 171, 171, 0.5);
     border-radius: 16px;
-    padding: 1rem;
+    padding: 5vh;
     min-height: 10vh;
     flex: 1;
     gap:1rem;
@@ -574,8 +580,9 @@ background-clip: text;
 //fin case skills
 .appercu{
   margin-top: 10rem;
-  margin-left: 10vw;
-  font-size: 5vh;
+  font-size:3rem;
+ font-family: 'PoliceVariable', sans-serif;
+
   @media (max-width:48rem){
     margin-left: 0;
 
@@ -593,19 +600,19 @@ background-clip: text;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
     padding: 0;
-    max-width: 1920px;
+    width:auto;
     @media(max-width:48rem){
       width: 90vw;
     }
     h1{
-      font-family: $font-family;
+      font-family: 'PoliceVariable', sans-serif;
     font-size: $menu-font-size;
+
     }
     p {
-    font-size: 2vh;
-    font-family: $font-family;
+    font-size: 1rem;
+    font-family: 'PoliceVariable', sans-serif;
     font-weight: 400;
     flex-basis: auto;
     max-width: 1920px;
@@ -817,12 +824,12 @@ box-shadow:
 }
 .hero2 h1{
   font-size: 10vh;
-  font-family: $font-family;
+  font-family: 'PoliceVariable', sans-serif;
   font-weight: 700;
   @media (max-width:48rem){
     margin-top: 20rem;
     font-size: 3rem;
-    font-family: $font-family;
+    font-family: 'PoliceVariable', sans-serif;
   font-weight: 700;
   }
 }
